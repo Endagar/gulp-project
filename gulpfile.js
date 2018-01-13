@@ -88,9 +88,9 @@ var paths = {
     clean: ['build/**/*']
 };
 
-paths.app.vendor.css = require('./app/configs/lib_css.js');
-paths.app.vendor.js = require('./app/configs/lib_js.js');
-paths.app.vendor.fonts = require('./app/configs/lib_fonts.js');
+paths.app.vendor.css.src = require('./app/configs/lib_css.js').src;
+paths.app.vendor.js.src = require('./app/configs/lib_js.js').src;
+paths.app.vendor.fonts.src = require('./app/configs/lib_fonts.js').src;
 
 // BrowserSync
 gulp.task('webserver', function() {
