@@ -14,7 +14,6 @@
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.18.13",
-    "gulp": "^4.0.0-build.a271520",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.1",
@@ -28,6 +27,7 @@
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
     "gulp-zip": "^4.0.0",
+    "gulp4": "^4.0.2",
     "imagemin-pngquant": "^5.0.1"
   }
 }

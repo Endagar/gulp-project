@@ -1,7 +1,7 @@
 'use strict';
 
 // Require our devDependencies.
-var gulp         = require('gulp'),	
+var gulp         = require('gulp4'),
 	autoprefixer = require('gulp-autoprefixer'),	
 	browsersync  = require('browser-sync'),
 	clean 		 = require('gulp-clean'),
